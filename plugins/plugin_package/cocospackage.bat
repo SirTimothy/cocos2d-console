@@ -1,3 +1,3 @@
 SET script_path=%~dp0
 
-python %script_path%cocospackage.pyc %*
+py -2.7 %script_path%cocospackage.pyc %*
